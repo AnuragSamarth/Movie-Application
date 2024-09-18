@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { fetchTvSeries } from "../services/api";
 import TrendingMoviesHeader from "../components/TreandingMovieHeader/TreandingMovieHeader";
-import Card from "../components/card/Card";
+import Card from "../components/Card/Card";
 
 function Shows() {
   const [showsData, setShowsData] = useState([]);
